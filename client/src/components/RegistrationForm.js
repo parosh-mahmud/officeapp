@@ -27,7 +27,7 @@ const RegistrationForm = () => {
 
       if (response.ok) {
         // Registration successful, navigate to ChatWindow
-        history.push('/chat'); // Replace '/chat' with the actual path of the ChatWindow page
+        history.push('/'); // Replace '/chat' with the actual path of the ChatWindow page
       } else {
         // Handle registration failure
         console.error('Registration failed');
